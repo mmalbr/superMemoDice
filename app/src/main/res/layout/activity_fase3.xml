@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abs2"
+    tools:context=".Fase1Activity">
+
+    <ImageView
+        android:id="@+id/tristeEmoticon3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/estrela2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/triste" />
+
+    <ImageView
+        android:id="@+id/serioEmoticon3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/estrela2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/serio" />
+
+    <TextView
+        android:id="@+id/movimentoConta3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="@string/_0000"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/botaoComecar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/botaoMais2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:onClick="botaoMais"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/valorEscala"
+        app:layout_constraintStart_toEndOf="@+id/estrela2"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/mais" />
+
+    <ImageView
+        android:id="@+id/botaoMenos2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:onClick="botaoMenos"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/valorEscala"
+        app:layout_constraintEnd_toStartOf="@+id/estrela2"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/menos" />
+
+    <ImageView
+        android:id="@+id/dado03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:contentDescription="@string/dado_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/dados00" />
+
+    <ImageView
+        android:id="@+id/dado02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/dado_1"
+        app:layout_constraintEnd_toStartOf="@+id/dado03"
+        app:layout_constraintStart_toEndOf="@+id/dado01"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/dados00" />
+
+    <TextView
+        android:id="@+id/pontosUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/_0000"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/super_memodice"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/memodicebeta" />
+
+    <ImageView
+        android:id="@+id/dado01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/dado_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/dados00" />
+
+    <Button
+        android:id="@+id/botaoComecar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:onClick="botaoClicado"
+        android:text="@string/come_ar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dado01" />
+
+    <Button
+        android:id="@+id/botaoVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="botaoVoltar"
+        android:text="@string/continuar"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estrela2" />
+
+    <TextView
+        android:id="@+id/valorEscala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/_1"
+        android:textColor="@color/purple_700"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoComecar" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/purple_700"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoVerificar" />
+
+    <SeekBar
+        android:id="@+id/seekBarEscala"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:max="15"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/valorEscala" />
+
+    <Button
+        android:id="@+id/botaoVerificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="verifica"
+        android:text="@string/verificar"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarEscala" />
+
+    <Button
+        android:id="@+id/botaoReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="desiste"
+        android:text="@string/desistir"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarEscala" />
+
+    <TextView
+        android:id="@+id/concentreSe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/concentre_se"
+        android:textColor="@color/purple_700"
+        android:textSize="36sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoComecar" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/estrela" />
+
+    <TextView
+        android:id="@+id/cola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/estrela2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/estrela_2"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botaoComecar"
+        app:srcCompat="@drawable/estrelac" />
+
+    <ImageView
+        android:id="@+id/estrela1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/estrela_1"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/estrela2"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/estrelac" />
+
+    <ImageView
+        android:id="@+id/estrela3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/estrela_3"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/estrela2"
+        app:layout_constraintTop_toTopOf="@+id/valorEscala"
+        app:srcCompat="@drawable/estrelac" />
+
+    <ImageView
+        android:id="@+id/tick"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/tick"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/dado01"
+        app:layout_constraintEnd_toEndOf="@+id/dado01"
+        app:layout_constraintStart_toStartOf="@+id/dado01"
+        app:layout_constraintTop_toTopOf="@+id/dado01"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/tick2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/tick"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/dado03"
+        app:layout_constraintEnd_toEndOf="@+id/dado03"
+        app:layout_constraintStart_toStartOf="@+id/dado03"
+        app:layout_constraintTop_toTopOf="@+id/dado03"
+        app:srcCompat="@drawable/tick" />
+
+    <ImageView
+        android:id="@+id/tick3"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/tick"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/dado02"
+        app:layout_constraintEnd_toEndOf="@+id/dado02"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/dado02"
+        app:layout_constraintTop_toTopOf="@+id/dado02"
+        app:layout_constraintVertical_bias="0.511"
+        app:srcCompat="@drawable/tick" />
+
+    <Button
+        android:id="@+id/botaoRetryin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="desiste"
+        android:text="@string/Retryin"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/estrela2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

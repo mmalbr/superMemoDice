@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="todo">TODO</string>
+    <string name="app_name">Super MemoDice</string>
+    <string name="estrela_2">Estrela 2</string>
+    <string name="dado_1">Dado 1</string>
+    <string name="super_memodice">Super MemoDice</string>
+    <string name="estrela_1">Estrela 1</string>
+    <string name="estrela_3">Estrela 3</string>
+    <string name="tick">Tick</string>
+    <string name="fase_2">Nível 2</string>
+    <string name="fase_3">Nível 3</string>
+    <string name="fase_4">Nível 4</string>
+    <string name="fase_5">Nível 5</string>
+    <string name="fase_6">Nível 6</string>
+    <string name="n_vel_01">Nível 01</string>
+    <string name="n_vel_06">Nível 06</string>
+    <string name="n_vel_05">Nível 05</string>
+    <string name="n_vel_04">Nível 04</string>
+    <string name="n_vel_03">Nível 03</string>
+    <string name="n_veis">Níveis</string>
+    <string name="n_vel_02">Nível 02</string>
+    <string name="_0000">0000</string>
+    <string name="come_ar">Continuar</string>
+    <string name="verificar">Conferir</string>
+    <string name="desistir">Reiniciar</string>
+    <string name="concentre_se">Concentre-se</string>
+    <string name="continuar">Continuar</string>
+    <string name="_1">1</string>
+    <string name="Times_up">Acabou o tempo!</string>
+    <string name="wrong">Errou! tente novamente.</string>
+    <string name="fase_1">Nível 1</string>
+    <string name="Retryin">Repetir</string>
+    <string name="memorize">Memorize!</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6944068380993727/5395549296</string>
+
+</resources>

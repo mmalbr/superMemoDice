@@ -1,0 +1,36 @@
+<resources>
+    <string name="todo">TODO</string>
+    <string name="app_name">Super MemoDice</string>
+    <string name="fase_1">Level 1</string>
+    <string name="fase_2">Level 2</string>
+    <string name="fase_3">Level 3</string>
+    <string name="fase_4">Level 4</string>
+    <string name="fase_5">Level 5</string>
+    <string name="fase_6">Level 6</string>
+    <string name="n_vel_01">Level 01</string>
+    <string name="n_vel_06">Level 06</string>
+    <string name="n_vel_05">Level 05</string>
+    <string name="n_vel_04">Level 04</string>
+    <string name="n_vel_03">Level 03</string>
+    <string name="n_veis">Levels</string>
+    <string name="n_vel_02">Level 02</string>
+    <string name="_0000">0000</string>
+    <string name="come_ar">Go</string>
+    <string name="verificar">Check</string>
+    <string name="desistir">Reload</string>
+    <string name="concentre_se">Attention</string>
+    <string name="continuar">Continue</string>
+    <string name="_1">1</string>
+    <string name="Times_up">Time\'s up!</string>
+    <string name="estrela_2">Star 2</string>
+    <string name="dado_1">Dice 1</string>
+    <string name="super_memodice">Super MemoDice</string>
+    <string name="estrela_1">Star 1</string>
+    <string name="estrela_3">Star 3</string>
+    <string name="tick">Tick</string>
+    <string name="wrong">Missed! Try again.</string>
+    <string name="Retryin">Retry</string>
+    <string name="memorize">Memorize!</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6944068380993727/5395549296</string>
+
+</resources>
